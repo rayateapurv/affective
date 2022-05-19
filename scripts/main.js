@@ -11,11 +11,11 @@ document.querySelector("#speech1").addEventListener("click", () => {
   //console.log(playbool);
 });
 
-setInterval(() => {
-  if (playbool) {
-    //console.log(speech);
-    window.speechSynthesis.speak(speech);
-  } else if (!playbool) {
-    window.speechSynthesis.cancel();
-  }
-}, 1000);
+// setInterval(() => {
+//   if (playbool) {
+//     //console.log(speech);
+//     window.speechSynthesis.speak(speech);
+//   } else if (!playbool) {
+//     window.speechSynthesis.cancel();
+//   }
+// }, 1000);
